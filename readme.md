@@ -12,7 +12,7 @@ GitHub Actions 实现 [GLaDOS][glados] 自动签到
 
 1. 添加 Cookie 到 Secret `GLADOS`
 
-1. 启用 Actions, 每天北京时间 00:10 自动签到
+1. 启用 Actions, 每天北京时间 10:30 自动签到
 
 ## 高级功能
 
