@@ -16,7 +16,7 @@ GitHub Actions 实现 [GLaDOS][glados] 自动签到
 
 1. 如有多个帐号, 可以写为多行 Secret `GLADOS`, 每行写一个 Cookie
 
-1. 如需修改时间, 可以修改文件 [run.yml](.github/workflows/run.yml#L7) 中的 `cron` 参数, 格式可参考 [crontab]
+1. 如需修改时间, 可以修改文件 [run.yml](.github/workflows/run.yml#L7) 中的 `cron` 参数, 格式可参考 [crontab]，GitHub 用的是 UTC 0 时区，北京时间 = UTC +8 小时。如UTC 02:30 = 北京时间 10:30。
 
 1. 如需推送通知, 可配置 Secret `NOTIFY`, 已支持:
     1. [WxPusher][wxpusher]: 格式 `wxpusher:{token}:{uid}`
