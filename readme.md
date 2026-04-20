@@ -6,7 +6,7 @@ GitHub Actions 实现 [GLaDOS][glados] 自动签到
 
 1. Fork 这个仓库
 
-1. 登录 [GLaDOS][glados] 获取 Cookie
+1. 登录 [GLaDOS][glados] 获取 Cookie(参考[此文章](https://zhuanlan.zhihu.com/p/616919265))
 
 1. 添加 Cookie 到 Secret `GLADOS`
 
@@ -25,10 +25,8 @@ GitHub Actions 实现 [GLaDOS][glados] 自动签到
     1. 如需配置多个, 可以写为多行, 每行写一个
 
 1. 注意: Cookie 以及接口输出数据, 包含帐号敏感信息, 因此不要随意公开；GLaDOS 的 Cookie 有效期可能不长，如失效需要重新获取并更新到 GLADOS Secret 中。
-
----
-
-[glados]: https://github.com/glados-network/GLaDOS
-[crontab]: https://crontab.guru/
-[pushplus]: https://www.pushplus.plus/
-[wxpusher]: https://wxpusher.zjiecode.com/
+2. 网址：<br>
+glados: https://github.com/glados-network/GLaDOS<br>
+crontab: https://crontab.guru/<br>
+pushplus: https://www.pushplus.plus/<br>
+wxpusher: https://wxpusher.zjiecode.com/<br>
