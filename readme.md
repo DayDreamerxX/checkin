@@ -6,11 +6,15 @@ GitHub Actions 实现 [GLaDOS][glados_addr] 自动签到
 
 1. Fork 这个仓库
 
-1. 登录 [GLaDOS][glados_addr] 获取 Cookie(参考[知乎文章][知乎文章_addr])
+2. 登录 [GLaDOS][glados_addr] 获取 Cookie(参考[知乎文章][知乎文章_addr])
+- 简单总结获取Cookie：
+- 登录网址后切换到**积分签到**界面；
+- 按**F12**进入浏览器的调试窗口；
+- 调试窗口中切换到**网络**标签 -> 找到下方名称为**checkin**的 -> 找到**请求标头中Cookie**（`koa:...`开头的内容都复制下来）
 
-1. 添加 Cookie 到 Secret `GLADOS`
+3. 添加 Cookie 到 Secret `GLADOS`
 
-1. 启用 Actions, 每天北京时间 10:30 自动签到
+4. 启用 Actions, 每天北京时间 10:30 自动签到
 
 ## 高级功能
 
